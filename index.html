@@ -61,7 +61,7 @@
 function checkOut() {
   const now = new Date().toISOString();
   const rowId = localStorage.getItem("dhlRowId");
-  fetch("https://script.google.com/macros/s/AKfycbyI-LTmPmhBKwyUC2assiQhUFweC-YYdkDOj3bZVmBGyTB3XngGfXWqe6Cxx9ywVyhf/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbz6MCKfKfGgsLBD-2P_sveGyODcpuDSB-J-IG1G8WEyvriuocj1yenQF8pMr4Ni4PEY/exec", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -190,7 +190,7 @@ function checkOut() {
       timestamp: new Date().toISOString()
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbyI-LTmPmhBKwyUC2assiQhUFweC-YYdkDOj3bZVmBGyTB3XngGfXWqe6Cxx9ywVyhf/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbz6MCKfKfGgsLBD-2P_sveGyODcpuDSB-J-IG1G8WEyvriuocj1yenQF8pMr4Ni4PEY/exec", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
